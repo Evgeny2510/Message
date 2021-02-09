@@ -7,7 +7,7 @@ require 'phpmailer/src/PHPMailer.php';
 
 $mail = new PHPMailer(true);
 $mail->CharSet = 'UTF-8';
-$mail->setLanguage('en','he','ru' 'phpmailer/language/');
+$mail->setLanguage('en', 'phpmailer/language/');
 $mail->IsHTML(true);
 
 //from how the letter
