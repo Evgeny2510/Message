@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     async function formSend(e) {
         e.preventDefault();
 
-        var error = formValidate(form);
+        let error = formValidate(form);
 
         let formData = new FormData(form);
         formData.append('image', formImage.files[0]);
